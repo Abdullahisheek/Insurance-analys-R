@@ -22,6 +22,5 @@ print(head(data_raw))
 
 cat("\nStruktur:\n")
 str(data_raw)
-
 cat("\nSaknade värden per kolumn:\n")
 print(colSums(is.na(data_raw)))
